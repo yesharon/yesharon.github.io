@@ -11,6 +11,10 @@
 .top a:hover{
   color: #AEF1EB;
 }
+
+a{
+  text-decoration: none;
+}
 .top{
   float: right;
   text-align: right;
@@ -66,4 +70,17 @@ body, html {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.aboutpic{
+  width: auto;
+  height: 100%;
+  position: relative;
+  transform: scaleX(-1);
+  background-position: center;
+}
+
+.aboutbg{
+  background-color: #f2f2f2;
+  width: 100%;
 }

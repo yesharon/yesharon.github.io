@@ -94,7 +94,7 @@ body, html {
 }
 
 .p3:hover{
-  content: url("yesharon.github.io/images/Untitled-6.png");
+  content: url("https://yesharon.github.io/images/Untitled-6.png");
   padding: 14px 14px;
   margin: none;
   width: 20%;
@@ -103,7 +103,7 @@ body, html {
 }
 
 .p2:hover{
-  content: url("yesharon.github.io/images/Untitled-4.png");
+  content: url("https://yesharon.github.io/images/Untitled-4.png");
   padding: 13px 20px;
   margin: none;
   width: 22%;
@@ -112,7 +112,7 @@ body, html {
 }
 
 .p1:hover{
-  content: url("yesharon.github.io/images/Untitled-5.png");
+  content: url("https://yesharon.github.io/images/Untitled-5.png");
   padding: 14px 18px;
   margin: none;
   width: 20%;

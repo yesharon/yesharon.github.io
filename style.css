@@ -74,16 +74,21 @@ body, html {
     transform: translate(-50%, -50%);
 }
 
-.aboutpic{
+/*.aboutpic{
   width: auto;
   height: 100%;
-  position: absolute;
+  position: relative;
   transform: scaleX(-1);
   background-position: center;
   z-index: 1;
-}
+}*/
 
 .aboutbg{
+  background-image: url("yesharon.github.io/images/newoverlay.png");
+  position: relative;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-color: #f2f2f2;
-  width: 100%;
 }

@@ -53,23 +53,14 @@ body, html {
     height: 100%;
 }
 
-/*.bg {
+.bg {
     background-image: url("yesharon.github.io/images/newoverlay.png");
+    transform: scaleX(-1);
     z-index: 1;
     position: relative;
     height: 100%;
-    background-position: center;
+    background-position: right;
     background-repeat: no-repeat;
-    background-size: cover;
-}*/
-
-.name {
-    z-index: 5;
-    width: 60%;
-    display: flex;
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    background-size: contain;
+    background-color: #f2f2f2;
 }

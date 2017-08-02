@@ -1,5 +1,6 @@
 *{
   box-sizing: border-box;
+  font-family: century gothic;
 }
 .header{
   background-color: white;
@@ -9,6 +10,11 @@
   color: #BBBBBB;
 }
 .top a:hover{
+  color: #AEF1EB;
+}
+
+.top a:active{
+  font-weight: bold;
   color: #AEF1EB;
 }
 
@@ -56,11 +62,96 @@ body, html {
 .bg {
     background-image: url("https://yesharon.github.io/images/newoverlay.png");
     transform: scaleX(-1);
-    z-index: 1;
     position: relative;
     height: 100%;
-    background-position: right;
+    background-position: right top;
     background-repeat: no-repeat;
     background-size: contain;
     background-color: #f2f2f2;
+}
+.text1{
+  display: block;
+  margin: auto;
+  line-height: 25px;
+  color: white;
+}
+
+.p1{
+  border-style: inset;
+  border-width: 4px;
+  border-color: white;
+  width: 20%;
+  margin-left: 40%;
+  margin-top: 5%;
+  background-color: #D6CDA0;
+  padding: 30px;
+  position: absolute;
+  z-index: 5;
+  font-size: 1vw;
+  border-radius: 4px;
+  height: 31%;
+
+}
+
+.p3:hover{
+  content: url("file:///Users/Sharon/Desktop/Untitled-6.png");
+  padding: 14px 14px;
+  margin: none;
+  width: 20%;
+  height: 33%;
+  transition: all 1s ease;
+}
+
+.p2:hover{
+  content: url("file:///Users/Sharon/Desktop/Untitled-4.png");
+  padding: 13px 20px;
+  margin: none;
+  width: 22%;
+  height: 42%;
+  transition: all 1s ease;
+}
+
+.p1:hover{
+  content: url("file:///Users/Sharon/Desktop/Untitled-5.png");
+  padding: 14px 18px;
+  margin: none;
+  width: 20%;
+  height: 31%;
+  transition: all 1s ease;
+}
+
+.p2{
+  border-style: inset;
+  border-width: 4px;
+  border-color: white;
+  width: 22%;
+  height: 42%;
+  margin-left: 67%;
+  margin-top: 15%;
+  background-color: #EED0BA;
+  padding: 30px;
+  position: absolute;
+  z-index: 5;
+  font-size: 1vw;
+  border-radius: 4px;
+
+
+}
+
+.p3{
+  border-style: inset;
+  border-width: 4px;
+  border-color: white;
+  width: 20%;
+  height: 33%;
+  margin-left: 40%;
+  margin-top: 25%;
+  background-color: #CFDDB3;
+  padding: 30px;
+  position: absolute;
+  z-index: 5;
+  font-size: 1vw;
+  border-radius: 4px;
+
+
 }

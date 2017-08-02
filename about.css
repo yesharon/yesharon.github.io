@@ -54,7 +54,7 @@ body, html {
 }
 
 .bg {
-    background-image: url("yesharon.github.io/images/newoverlay.png");
+    background-image: url("https://yesharon.github.io/images/newoverlay.png");
     transform: scaleX(-1);
     z-index: 1;
     position: relative;

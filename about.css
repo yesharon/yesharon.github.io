@@ -53,17 +53,17 @@ body, html {
     height: 100%;
 }
 
-/*.bg {
-    background-image: url("file:///Users/Sharon/Downloads/2017-07-27%2005.06.43%201-01.jpeg");
+.bg {
+    background-image: url("yesharon.github.io/images/newoverlay.png");
     z-index: 1;
     position: relative;
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}*/
+}
 
-.name {
+/*.name {
     z-index: 5;
     width: 60%;
     display: flex;
@@ -72,4 +72,4 @@ body, html {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
+}*/

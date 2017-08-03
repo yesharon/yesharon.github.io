@@ -1,0 +1,64 @@
+*{
+  box-sizing: border-box;
+}
+.header{
+  background-color: white;
+  font-family: century gothic;
+  width: 100%;
+  font-size: 13px;
+  color: #BBBBBB;
+}
+.top a:hover{
+  color: #AEF1EB;
+}
+
+a{
+  text-decoration: none;
+  font-weight: normal;
+  color: inherit;
+}
+.top{
+  float: right;
+  text-align: right;
+  z-index: 4;
+  position: relative;
+  margin-top: 7px;
+}
+.top a{
+  display: block;
+  list-style-type: none;
+  margin-right: 14px;
+  margin-top: 12px;
+  font-weight: bold;
+}
+
+.fa {
+    color: #BBBBBB;
+    padding: none;
+
+}
+
+.socialmedia{
+  display: block;
+  position: absolute;
+  margin-left: 10px;
+  line-height: 10px;
+  z-index: 2;
+}
+.fa:hover{
+  color: #AEF1EB;
+}
+
+body, html {
+    height: 100%;
+}
+
+.bg {
+    background-image: url("file:///Users/Sharon/Downloads/2017-07-27%2005.06.43%201-01.jpeg");
+    z-index: 1;
+    position: relative;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

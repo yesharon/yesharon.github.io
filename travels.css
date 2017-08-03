@@ -1,5 +1,6 @@
 *{
   box-sizing: border-box;
+  font-family: century gothic;
 }
 .header{
   background-color: white;
@@ -54,12 +55,35 @@ body, html {
 }
 
 .bg {
-    background-image: url("file:///Users/Sharon/Desktop/website/images/contact.png");
+    background-image: url("images/map.png");
     z-index: 1;
     position: relative;
     height: 100%;
-    background-position: right bottom;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    background-color: #fcfcfc;
+    background-color: white;
 }
+
+.text1{
+  position: absolute;
+  z-index: 5;
+  width: 100%
+}
+
+.goal{
+  font-size: 15px;
+  color: #a5a4a2;
+  text-align: center;
+  margin-top: 2%;
+}
+
+/*.pin1{
+  border: 1px solid black;
+  min-height: 3%;
+  min-width: 0.3%;
+  position: absolute;
+  z-index: 10;
+  margin-left: 23.3%;
+  margin-top: 16.5%;
+}*/

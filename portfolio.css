@@ -1,6 +1,7 @@
 *{
   box-sizing: border-box;
-  background-color: pink;
+  font-family: century gothic;
+
 }
 .header{
   background-color: white;
@@ -44,7 +45,7 @@ a{
   position: absolute;
   margin-left: 10px;
   line-height: 10px;
-  z-index: 2;
+  z-index: 3;
 }
 .fa:hover{
   color: #AEF1EB;
@@ -54,13 +55,192 @@ body, html {
     height: 100%;
 }
 
-/*.bg {
-    background-image: url("file:///Users/Sharon/Desktop/website/images/contact.png");
-    z-index: 1;
+/*TITLE AND HEADER PART OF REFLECTIONS SERIES*/
+
+.outer {
+    height: 50%;
+    background-color: #EDF5F6;
     position: relative;
-    height: 100%;
-    background-position: right bottom;
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
-    background-color: #fcfcfc;
-}*/
+    background-size: cover;
+    z-index: 1;
+    top: 0;
+    bottom: 180px;
+}
+
+.titleart{
+  font-size: 60px;
+  width: 100%;
+  color: #979797;
+  text-align: center;
+  position: absolute;
+  z-index: 5;
+  top: 170px;
+  font-weight: lighter;
+}
+
+.description{
+  font-size: 15px;
+  width: 100%;
+  text-align: center;
+  color: #979797;
+  z-index: 5;
+  position: absolute;
+  top: 320px;
+  padding-left: 180px;
+  padding-right: 180px;
+  line-height: 30px;
+}
+
+.inner {
+  height: 50%;
+  margin-left: 80px;
+  margin-right: 80px;
+  background-color: #D2E0E1;
+  position: absolute;
+  background-position: center;
+  background-size: contain;
+  z-index: 2;
+  left:0;
+  right:0;
+  top: 180px;
+}
+
+.lower{
+  height: 170%;
+  background-color: #FAFDFD;
+  position: relative;
+  z-index: 1;
+  background-position: center;
+  background-size: cover;
+}
+
+/*REFLECTIONS SERIES ART*/
+
+.fogart{
+  position: absolute;
+  height: 470px;
+  width: 332px;
+  overflow: hidden;
+  top: 600px;
+  margin-left: 391px;
+  z-index: 10;
+}
+.fogart img{
+  height: 470px;
+  transition: transform .2s ease-in-out;
+}
+.fogart img:hover{
+  transform: translate3d(-333px, 0px, 0px);
+}
+
+
+.manmeltart{
+  position: absolute;
+  height: 410px;
+  width: 557px;
+  overflow: hidden;
+  top: 1080px;
+  margin-left: 75px;
+  z-index: 10;
+}
+.manmeltart img{
+  height: 410px;
+  transition: transform .2s ease-in-out;
+}
+.manmeltart img:hover{
+  transform: translate3d(-557px, 0px, 0px);
+}
+
+
+.milkart{
+  position: absolute;
+  height: 479px;
+  width: 376px;
+  overflow: hidden;
+  top: 1011px;
+  margin-left: 974px;
+  z-index: 10;
+}
+.milkart img{
+  height: 479px;
+  transition: transform .2s ease-in-out;
+}
+.milkart img:hover{
+  transform: translate3d(-376px, 0px, 0px);
+}
+
+
+.mirrorart{
+  position: absolute;
+  height: 401px;
+  width: 618px;
+  overflow: hidden;
+  top: 600px;
+  margin-left: 733px;
+  z-index: 10;
+}
+.mirrorart img{
+  height: 401px;
+  transition: transform .2s ease-in-out;
+}
+.mirrorart img:hover{
+  transform: translate3d(-619px, 0px, 0px);
+}
+
+
+.shatteredart{
+  position: absolute;
+  height: 420px;
+  width: 306px;
+  overflow: hidden;
+  top: 600px;
+  margin-left: 75px;
+  z-index: 10;
+}
+.shatteredart img{
+  height: 420px;
+  transition: transform .2s ease-in-out;
+}
+.shatteredart img:hover{
+  transform: translate3d(-307px, 0px, 0px);
+}
+
+
+.underwaterart{
+  position: absolute;
+  height: 410px;
+  width: 322px;
+  overflow: hidden;
+  top: 1080px;
+  margin-left: 642px;
+  z-index: 10;
+}
+.underwaterart img{
+  height: 410px;
+  transition: transform .2s ease-in-out;
+}
+.underwaterart img:hover{
+  transform: translate3d(-323px, 0px, 0px);
+}
+
+.grey1{
+  background-color: #787777;
+  height: 40px;
+  width: 306px;
+  top: 1030px;
+  left: 82px;
+  position: absolute;
+  z-index: 10;
+}
+
+.grey2{
+  background-color: #787777;
+  z-index: 10;
+  position: absolute;
+  height: 59px;
+  width: 231px;
+  left: 741px;
+  top: 1011px;
+}

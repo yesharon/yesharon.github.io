@@ -55,7 +55,8 @@ body, html {
 }
 
 .bg {
-    background-image: url("images/map.png");
+    /*background-image: url("images/map.png");*/
+    background-image: url("file:///Users/Sharon/Desktop/website/images/polaroid.png");
     z-index: 1;
     position: relative;
     height: 100%;
@@ -65,12 +66,45 @@ body, html {
     background-color: white;
 }
 
-.text1{
-  position: absolute;
-  z-index: 5;
-  width: 100%
+.map{
+  background-image: url("images/map.png");
+  z-index: 1;
+  position: relative;
+  min-height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
+.text1{
+  position: relative;
+  z-index: 5;
+  width: 100%;
+  padding-top: 20px;
+
+}
+.title{
+  position: absolute;
+  z-index: 10;
+  background-color: rgba(150,150,150,0.7);
+  float: right;
+  right: 27%;
+  top: 27%;
+  border-style: solid;
+  border-color: #6b6969;
+
+
+}
+
+.where{
+  font-size: 70px;
+  text-align: center;
+  color: white;
+  padding: 50px 60px;
+  margin: auto;
+
+
+}
 .goal{
   font-size: 15px;
   color: #a5a4a2;
@@ -78,6 +112,27 @@ body, html {
   margin-top: 2%;
 }
 
+.chevron{
+  height: 40px;
+  width: 40px;
+  transform: rotate(135deg);
+  border-top: 5px solid #6b6969;
+  border-right: 5px solid #6b6969;
+  z-index: 21;
+  margin-left: 50%;
+  margin-top: 42%;
+  position: absolute;
+  top: 0;
+  transition: top ease 0.5s;
+}
+
+.chevron:hover{
+  top: 20px;
+}
+
+.text11{
+  transition: ease 0.5s;
+}
 /*.pin1{
   border: 1px solid black;
   min-height: 3%;

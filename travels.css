@@ -56,7 +56,7 @@ body, html {
 
 .bg {
     /*background-image: url("images/map.png");*/
-    background-image: url("file:///Users/Sharon/Desktop/website/images/polaroid.png");
+    background-image: url("images/polaroid.png");
     z-index: 1;
     position: relative;
     height: 100%;

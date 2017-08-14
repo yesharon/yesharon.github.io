@@ -259,13 +259,13 @@ body, html {
   font-weight: lighter;
 }
 
-/*.bloodart1{
+.bloodart1{
   position: absolute;
-  height: 410px;
-  width: 322px;
+  height: 350px;
+  width: 548px;
   overflow: hidden;
-  top: 1080px;
-  margin-left: 642px;
+  top: 3415px;
+  margin-left: 75px;
   z-index: 10;
 }
 .bloodart1 img{
@@ -273,17 +273,17 @@ body, html {
   transition: transform .2s ease-in-out;
 }
 .bloodart1 img:hover{
-  transform: translate3d(-323px, 0px, 0px);
-}*/
+  transform: translate3d(-548px, 0px, 0px);
+}
 
 
 .bottlesart2{
   position: absolute;
   height: 410px;
-  width: 322px;
+  width: 327px;
   overflow: hidden;
-  top: 2000px;
-  margin-left: 75px;
+  top: 2995px;
+  margin-left: 395px;
   z-index: 10;
 }
 .bottlesart2 img{
@@ -291,56 +291,56 @@ body, html {
   transition: transform .2s ease-in-out;
 }
 .bottlesart2 img:hover{
-  transform: translate3d(-323px, 0px, 0px);
+  transform: translate3d(-327px, 0px, 0px);
 }
 
 
 
-/*.colorart3{
+.colorart3{
   position: absolute;
-  height: 410px;
-  width: 322px;
+  height: 340px;
+  width: 432px;
   overflow: hidden;
-  top: 1080px;
-  margin-left: 642px;
+  top: 1900px;
+  margin-left: 420px;
   z-index: 10;
 }
 .colorart3 img{
-  height: 410px;
+  height: 340px;
   transition: transform .2s ease-in-out;
 }
 .colorart3 img:hover{
-  transform: translate3d(-323px, 0px, 0px);
-}*/
+  transform: translate3d(-432px, 0px, 0px);
+}
 
 
 
-/*.elephantart4{
+.elephantart4{
   position: absolute;
-  height: 410px;
-  width: 322px;
+  height: 340px;
+  width: 488px;
   overflow: hidden;
-  top: 1080px;
-  margin-left: 642px;
+  top: 1900px;
+  margin-left: 862px;
   z-index: 10;
 }
 .elephantart4 img{
-  height: 410px;
+  height: 340px;
   transition: transform .2s ease-in-out;
 }
 .elephantart4 img:hover{
-  transform: translate3d(-323px, 0px, 0px);
-}*/
+  transform: translate3d(-488px, 0px, 0px);
+}
 
 
 
-/*.flameart5{
+.flameart5{
   position: absolute;
-  height: 410px;
-  width: 322px;
+  height: 350px;
+  width: 628px;
   overflow: hidden;
-  top: 1080px;
-  margin-left: 642px;
+  top: 3415px;
+  margin-left: 724px;
   z-index: 10;
 }
 .flameart5 img{
@@ -348,18 +348,18 @@ body, html {
   transition: transform .2s ease-in-out;
 }
 .flameart5 img:hover{
-  transform: translate3d(-323px, 0px, 0px);
-}*/
+  transform: translate3d(-628px, 0px, 0px);
+}
 
 
 
-/*.flowerart6{
+.flowerart6{
   position: absolute;
   height: 410px;
-  width: 322px;
+  width: 300px;
   overflow: hidden;
-  top: 1080px;
-  margin-left: 642px;
+  top: 2995px;
+  margin-left: 1051px;
   z-index: 10;
 }
 .flowerart6 img{
@@ -367,37 +367,37 @@ body, html {
   transition: transform .2s ease-in-out;
 }
 .flowerart6 img:hover{
-  transform: translate3d(-323px, 0px, 0px);
-}*/
+  transform: translate3d(-310px, 0px, 0px);
+}
 
 
-/*
+
 .girltreeart7{
   position: absolute;
-  height: 410px;
-  width: 322px;
+  height: 503px;
+  width: 335px;
   overflow: hidden;
-  top: 1080px;
-  margin-left: 642px;
+  top: 1900px;
+  margin-left: 75px;
   z-index: 10;
 }
 .girltreeart7 img{
-  height: 410px;
+  height: 503px;
   transition: transform .2s ease-in-out;
 }
 .girltreeart7 img:hover{
-  transform: translate3d(-323px, 0px, 0px);
+  transform: translate3d(-335px, 0px, 0px);
 }
-*/
 
 
-/*.pianoart8{
+
+.pianoart8{
   position: absolute;
   height: 410px;
-  width: 322px;
+  width: 310px;
   overflow: hidden;
-  top: 1080px;
-  margin-left: 642px;
+  top: 2995px;
+  margin-left: 75px;
   z-index: 10;
 }
 .pianoart8 img{
@@ -405,113 +405,113 @@ body, html {
   transition: transform .2s ease-in-out;
 }
 .pianoart8 img:hover{
-  transform: translate3d(-323px, 0px, 0px);
-}*/
+  transform: translate3d(-310px, 0px, 0px);
+}
 
 
 
-/*.selfart9{
+.selfart9{
   position: absolute;
-  height: 410px;
-  width: 322px;
+  height: 466px;
+  width: 335px;
   overflow: hidden;
-  top: 1080px;
-  margin-left: 642px;
+  top: 2519px;
+  margin-left: 75px;
   z-index: 10;
 }
 .selfart9 img{
-  height: 410px;
+  height: 466px;
   transition: transform .2s ease-in-out;
 }
 .selfart9 img:hover{
-  transform: translate3d(-323px, 0px, 0px);
-}*/
+  transform: translate3d(-335px, 0px, 0px);
+}
 
 
 
-/*.seniorart10{
+.seniorart10{
   position: absolute;
-  height: 410px;
-  width: 322px;
+  height: 425px;
+  width: 335px;
   overflow: hidden;
-  top: 1080px;
-  margin-left: 642px;
+  top: 2250px;
+  margin-left: 1016px;
   z-index: 10;
 }
 .seniorart10 img{
-  height: 410px;
+  height: 425px;
   transition: transform .2s ease-in-out;
 }
 .seniorart10 img:hover{
-  transform: translate3d(-323px, 0px, 0px);
+  transform: translate3d(-338px, 0px, 0px);
 }
-*/
 
 
-/*.sinkart11{
+
+.sinkart11{
   position: absolute;
-  height: 410px;
-  width: 322px;
+  height: 300px;
+  width: 569px;
   overflow: hidden;
-  top: 1080px;
-  margin-left: 642px;
+  top: 2685px;
+  margin-left: 550px;
   z-index: 10;
 }
 .sinkart11 img{
-  height: 410px;
+  height: 300px;
   transition: transform .2s ease-in-out;
 }
 .sinkart11 img:hover{
-  transform: translate3d(-323px, 0px, 0px);
-}*/
+  transform: translate3d(-569px, 0px, 0px);
+}
 
 
-/*
+
 .skeletonart12{
   position: absolute;
-  height: 410px;
-  width: 322px;
+  height: 425px;
+  width: 294px;
   overflow: hidden;
-  top: 1080px;
-  margin-left: 642px;
+  top: 2250px;
+  margin-left: 420px;
   z-index: 10;
 }
 .skeletonart12 img{
-  height: 410px;
+  height: 425px;
   transition: transform .2s ease-in-out;
 }
 .skeletonart12 img:hover{
-  transform: translate3d(-323px, 0px, 0px);
-}*/
+  transform: translate3d(-294px, 0px, 0px);
+}
 
 
 
-/*.tissuesart13{
+.tissuesart13{
   position: absolute;
-  height: 410px;
-  width: 322px;
+  height: 425px;
+  width: 282px;
   overflow: hidden;
-  top: 1080px;
-  margin-left: 642px;
+  top: 2250px;
+  margin-left: 724px;
   z-index: 10;
 }
 .tissuesart13 img{
-  height: 410px;
+  height: 425px;
   transition: transform .2s ease-in-out;
 }
 .tissuesart13 img:hover{
-  transform: translate3d(-323px, 0px, 0px);
-}*/
+  transform: translate3d(-282px, 0px, 0px);
+}
 
 
-/*
+
 .waveart14{
   position: absolute;
   height: 410px;
-  width: 322px;
+  width: 309px;
   overflow: hidden;
-  top: 1080px;
-  margin-left: 642px;
+  top: 2995px;
+  margin-left: 732px;
   z-index: 10;
 }
 .waveart14 img{
@@ -519,5 +519,53 @@ body, html {
   transition: transform .2s ease-in-out;
 }
 .waveart14 img:hover{
-  transform: translate3d(-323px, 0px, 0px);
-}*/
+  transform: translate3d(-309px, 0px, 0px);
+}
+
+
+
+.grey3{
+  background-color: #787777;
+  z-index: 10;
+  position: absolute;
+  height: 96px;
+  width: 335px;
+  left: 83px;
+  top: 2413px;
+}
+
+
+
+.grey4{
+  background-color: #787777;
+  z-index: 10;
+  position: absolute;
+  height: 300px;
+  width: 120px;
+  left: 428px;
+  top: 2685px;
+}
+
+
+
+.grey5{
+  background-color: #787777;
+  z-index: 10;
+  position: absolute;
+  height: 300px;
+  width: 222px;
+  left: 1137px;
+  top: 2685px;
+}
+
+
+
+.grey6{
+  background-color: #787777;
+  z-index: 10;
+  position: absolute;
+  height: 350px;
+  width: 81px;
+  left: 641px;
+  top: 3415px;
+}

@@ -1,5 +1,7 @@
 *{
   box-sizing: border-box;
+  font-family: century gothic;
+
 }
 .header{
   background-color: white;
@@ -54,11 +56,28 @@ body, html {
 }
 
 .bg {
-    background-image: url("file:///Users/Sharon/Downloads/2017-07-27%2005.06.43%201-01.jpeg");
+    background-image: url("images/resumeblur.png");
     z-index: 1;
     position: relative;
     height: 100%;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.sign{
+  position: absolute;
+  background-color: rgba(150, 150, 150,0.7);
+  height: 50%;
+  width: 50%;
+  top: 25%;
+  z-index: 5;
+  left: 25%;
+}
+
+.words{
+  text-align: center;
+  font-size: 70px;
+  color: #5D5D5D;
+  padding: 30px;
 }

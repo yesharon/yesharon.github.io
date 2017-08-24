@@ -68,8 +68,8 @@ body, html {
 .sign{
   position: absolute;
   background-color: rgba(150, 150, 150,0.7);
-  height: 50%;
-  width: 50%;
+  height: 370px;
+  width: 720;
   top: 25%;
   z-index: 5;
   left: 25%;

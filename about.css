@@ -60,7 +60,7 @@ body, html {
 }
 
 .bg {
-    background-image: url("https://yesharon.github.io/images/newoverlay.png");
+    background-image: url("images/newoverlay1.png");
     transform: scaleX(-1);
     position: relative;
     height: 100%;
@@ -68,7 +68,42 @@ body, html {
     background-repeat: no-repeat;
     background-size: contain;
     background-color: #f2f2f2;
+    margin-left: -150px;
 }
+
+/*.bg:hover{
+  background-image: url("file:///Users/Sharon/Desktop/website/images/newoverlay2.png");
+  transform: scaleX(-1);
+  position: relative;
+  height: 100%;
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #f2f2f2;
+  margin-left: -229px;
+}*/
+
+/*.hover{
+  background-color: red;
+  width:150px;
+  height: 200px;
+  top:16%;
+  left: 17%;
+  z-index: 10;
+  position: absolute;
+}
+
+.hover:hover{
+  background-image: url("file:///Users/Sharon/Desktop/website/images/newoverlay2.png");
+  height:100%;
+  transform: scaleX(-1);
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #f2f2f2;
+  margin-left: -150px;
+}*/
+
 .text1{
   display: block;
   margin: auto;

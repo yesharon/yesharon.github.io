@@ -58,7 +58,7 @@ body, html {
 .bg {
     background-image: url("images/resumeblur.png");
     z-index: 1;
-    position: relative;
+    position: relative; 
     height: 100%;
     background-position: top;
     background-repeat: no-repeat;

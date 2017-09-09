@@ -55,10 +55,40 @@ body, html {
     height: 100%;
 }
 
+
+/********************** DESIGN PORTFOLIO PART DELETE DELETE DELETE*/
+.design{
+  height:180px;
+  width: 600px;
+  top:7%;
+  position: absolute;
+  z-index: 10;
+  text-align: center;
+  margin-left: 420px;
+  margin-right: 400px;
+  background-color: #E0DDE4;
+  padding: 10px 30px;
+  border-width: thick;
+  border-style: inset;
+
+
+}
+
+.helloinnod{
+  font-size: 18px;
+}
+
+.textinnod{
+  font-size: 12px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+
 /*TITLE AND HEADER PART OF REFLECTIONS SERIES*/
 
 .outer {
-    height: 50%;
+    height: 350px;
     background-color: #E6EDEE;
     position: relative;
     background-position: center;
@@ -71,7 +101,7 @@ body, html {
 
 .titleart{
   font-size: 60px;
-  width: 100%;
+  width: 1300px;
   color: #979797;
   text-align: center;
   position: relative;
@@ -81,8 +111,8 @@ body, html {
 
 .description{
   /*font-size: 15px;*/
-  font-size: 1.2vw;
-  width: 100%;
+  font-size: 16px;
+  width: 1300px;
   text-align: center;
   color: #979797;
   z-index: 5;
@@ -97,13 +127,14 @@ body, html {
 }
 
 .inner {
-  height: 50%;
+  height: 355px;
+  width: 1270px;
   margin-left: 80px;
   margin-right: 80px;
   background-color: #D2E0E1;
   position: absolute;
-  background-position: center;
-  background-size: contain;
+  /*background-position: center;
+  background-size: contain;*/
   z-index: 2;
   left:0;
   right:0;

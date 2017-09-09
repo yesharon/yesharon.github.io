@@ -60,7 +60,7 @@ body, html {
 .design{
   height:180px;
   width: 600px;
-  top:7%;
+  top:40px;
   position: absolute;
   z-index: 10;
   text-align: center;
@@ -121,8 +121,8 @@ body, html {
   top: -20px;
   /*padding-left: 180px;
   padding-right: 180px;*/
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 100px;
+  padding-right: 100px;
   line-height: 30px;
 }
 
@@ -142,7 +142,7 @@ body, html {
 }
 
 .lower{
-  height: 177%;
+  height: 1300px;
   background-color: #EEF6F7;
   position: relative;
   z-index: 1;

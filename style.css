@@ -58,21 +58,20 @@ a{
   animation-delay: 0s, 3s;
   overflow: hidden;
   z-index: 100;
-  font-size: 50px;
+  font-size: 20px;
   /*display: block;*/
   position: absolute;
-  margin-left: 730px;
-  margin-right: 730px;
-  top:-50px;
+  margin-left: 49.3%;
+  top:-15px;
 
 }
 
 @keyframes dropdown {
   from {
-    top: -200px;
+    top: -100px;
   }
   to {
-    top: -50px;
+    top: -15px;
   }
 }
 
@@ -94,20 +93,19 @@ a{
   animation-iteration-count: 1;
   overflow: hidden;
   z-index: 99;
-  font-size: 50px;
+  font-size: 20px;
   /*display: block;*/
   position: absolute;
-  margin-left: 730px;
-  margin-right: 730px;
-  top:-50px;
+  margin-left: 49.3%;
+  top:-15px;
 }
 
 @keyframes dropdownleft {
   from {
-    margin-left: -200px;
+    margin-left: -2%;
   }
   to {
-    margin-left: 730px;
+    margin-left: 49.3%;
   }
 }
 
@@ -117,20 +115,19 @@ a{
   animation-iteration-count: 1;
   overflow: hidden;
   z-index: 99;
-  font-size: 50px;
+  font-size: 20px;
   /*display: block;*/
   position: absolute;
-  margin-left: 730px;
-  margin-right: 730px;
-  top:-50px;
+  margin-left: 49.3%;
+  top:-15px;
 }
 
 @keyframes dropdownright {
   from {
-    margin-left: 2000px;
+    margin-left: 102%;
   }
   to {
-    margin-left: 730px;
+    margin-left: 49.3%;
   }
 }
 

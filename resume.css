@@ -45,11 +45,39 @@ a{
   position: absolute;
   margin-left: 10px;
   line-height: 10px;
-  z-index: 2;
+  z-index: 3;
 }
 .fa:hover{
   color: #AEF1EB;
 }
+
+.backtomain {
+  animation-duration: 1s;
+  animation-name: changecolor;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  overflow: hidden;
+  z-index: 100;
+  font-size: 20px;
+  /*display: block;*/
+  position: absolute;
+  margin-left: 49.3%;
+  /*margin-right: 730px;*/
+  top:-15px;
+
+}
+
+@keyframes changecolor {
+  from {
+    color: black;
+  }
+
+  to {
+    color:white;
+  }
+}
+
+
 
 body, html {
     height: 100%;
@@ -58,26 +86,81 @@ body, html {
 .bg {
     background-image: url("images/resumeblur.png");
     z-index: 1;
-    position: relative; 
+    position: relative;
     height: 100%;
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.sign{
+
+.csside {
+  /*top: 150px;*/
+  /*margin-left: 170px;*/
+  z-index: 2;
+  width: 50%;
+  height: 100%;
   position: absolute;
-  background-color: rgba(150, 150, 150,0.7);
-  height: 370px;
-  width: 720;
-  top: 25%;
-  z-index: 5;
-  left: 25%;
+  background-color: #c0e8ff;
+  font-size: 25px;
+  text-align: right;
+  padding-right: 40px;
+  padding-top: 20%;
+  color: white;
 }
 
-.words{
-  text-align: center;
-  font-size: 70px;
-  color: #5D5D5D;
-  padding: 30px;
+.csside:hover {
+  color: #c0e8ff;
+}
+
+.csside:before {
+  content: "";
+  position: absolute;
+  z-index:-1;
+  top: 0;  left: 0;  right: 0;  bottom: 0;
+  background-color: white;
+  transform: scaleX(0);
+  transform-origin: 100% 50%;
+  transition: transform .5s ease-out;
+}
+.csside:hover:before{
+  transform: scaleX(1);
+}
+
+
+
+.businessside {
+  /*top: 150px;*/
+  margin-left: 50%;
+  z-index: 2;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  background-color: #f7dcc2;
+  font-size: 25px;
+  text-align: left;
+  padding-left: 40px;
+  padding-top: 20%;
+  color: white;
+}
+.businessside:hover {
+  color: #f7dcc2;
+}
+
+.businessside:before {
+  content: "";
+  position: absolute;
+  z-index:-1;
+  top: 0;  left: 0;  right: 0;  bottom: 0;
+  background-color: white;
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  transition: transform .5s ease-out;
+}
+.businessside:hover:before{
+  transform: scaleX(1);
+}
+
+
+
 }

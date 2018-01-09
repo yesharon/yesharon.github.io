@@ -55,19 +55,45 @@ body, html {
     height: 100%;
 }
 
+.backtomain {
+  animation-duration: 1s;
+  animation-name: changecolor;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  overflow: hidden;
+  z-index: 100;
+  font-size: 20px;
+  /*display: block;*/
+  position: absolute;
+  margin-left: 730px;
+  margin-right: 730px;
+  top:-15px;
+
+}
+
+@keyframes changecolor {
+  from {
+    color: black;
+  }
+
+  to {
+    color:white;
+  }
+}
+
 
 /********************** DESIGN PORTFOLIO PART DELETE DELETE DELETE*/
 .design{
-  height:180px;
-  width: 600px;
-  top:40px;
+  height:110px;
+  width: 700px;
+  top:70px;
   position: absolute;
   z-index: 10;
   text-align: center;
-  margin-left: 420px;
+  margin-left: 400px;
   margin-right: 400px;
   background-color: #E0DDE4;
-  padding: 10px 30px;
+  padding: 4px 30px;
   border-width: thick;
   border-style: inset;
 
@@ -75,13 +101,19 @@ body, html {
 }
 
 .helloinnod{
-  font-size: 18px;
+  font-size: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .textinnod{
   font-size: 12px;
   padding-left: 30px;
   padding-right: 30px;
+}
+
+.titleish{
+  font-size: 20px;
 }
 
 

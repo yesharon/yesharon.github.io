@@ -49,9 +49,95 @@ a{
   color: #AEF1EB;
 }
 
+
+.backtomain {
+  animation-name: dropdown, changecolor;
+  animation-duration: 3s, 2s;
+  animation-iteration-count: 1, infinite;
+  animation-direction: alternate;
+  animation-delay: 0s, 3s;
+  overflow: hidden;
+  z-index: 100;
+  font-size: 50px;
+  /*display: block;*/
+  position: absolute;
+  margin-left: 730px;
+  margin-right: 730px;
+  top:-50px;
+
+}
+
+@keyframes dropdown {
+  from {
+    top: -200px;
+  }
+  to {
+    top: -50px;
+  }
+}
+
+@keyframes changecolor {
+  from {
+    color: black;
+  }
+
+  to {
+    color:white;
+  }
+}
+
+
+
+.backtomainleft {
+  animation-name: dropdownleft;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  overflow: hidden;
+  z-index: 99;
+  font-size: 50px;
+  /*display: block;*/
+  position: absolute;
+  margin-left: 730px;
+  margin-right: 730px;
+  top:-50px;
+}
+
+@keyframes dropdownleft {
+  from {
+    margin-left: -200px;
+  }
+  to {
+    margin-left: 730px;
+  }
+}
+
+.backtomainright {
+  animation-name: dropdownright;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  overflow: hidden;
+  z-index: 99;
+  font-size: 50px;
+  /*display: block;*/
+  position: absolute;
+  margin-left: 730px;
+  margin-right: 730px;
+  top:-50px;
+}
+
+@keyframes dropdownright {
+  from {
+    margin-left: 2000px;
+  }
+  to {
+    margin-left: 730px;
+  }
+}
+
 body, html {
     height: 100%;
 }
+
 
 /*.bg {
     background-image: url("file:///Users/Sharon/Downloads/2017-07-27%2005.06.43%201-01.jpeg");

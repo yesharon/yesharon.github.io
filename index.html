@@ -1,56 +1,85 @@
 <DOCTYPE html>
-
   <html>
     <head>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <title> Sharon's Website </title>
       <link rel="stylesheet" href="style.css" type="text/css">
-      <div class="header">
-      <nav class="top">
-        <a href="about.html">About </a>
-        <a href="resume.html">Resume </a>
-        <a href="portfolio.html">Portfolio </a>
-        <a href="travels.html">Travels	</a>
-        <a href="contact.html">Contact	</a>
-      </nav>
+      <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+      <link href='https://fonts.googleapis.com/css?family=Bubbler One' rel='stylesheet'>
+      <link href='https://fonts.googleapis.com/css?family=Meddon' rel='stylesheet'>
+      <link href='https://fonts.googleapis.com/css?family=Mrs Saint Delafield' rel='stylesheet'>
+      <script src="jquery.js"></script>
+      <script src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script>
+      <script src="app.js"></script>
+      <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+      <div class = "typer">
+        HI THERE!<br>
+        WELCOME TO MY SITE!
       </div>
-
-      <div class = "headimage">
-        <h2>
-      </div>
-
-      <div class="socialmedia">
-        <a href="https://www.facebook.com/sharon.ye.7">
-        <i class="fa fa-facebook" style="margin-top:20px"></i> <br></br> </a>
-        <a href="https://www.instagram.com/y_sharon_/">
-        <i class="fa fa-instagram"></i> <br></br> </a>
-        <a href="https://www.linkedin.com/in/sharon-ye/">
-        <i class="fa fa-linkedin"></i> </a>
-      </div>
-
-    <!-- BACK TO MAIN PAGE -->
-        <div class= "backtomain">
-          <a href="index.html">
-            <h1> S </h1>
-          </a>
-        </div>
-
-        <div class= "backtomainleft">
-          <a href="index.html">
-            <h1> S </h1>
-          </a>
-        </div>
-
-        <div class= "backtomainright">
-          <a href="index.html">
-            <h1> S </h1>
-          </a>
-        </div>
-
     </head>
 
     <body>
-      <div class = "bg">
-        <img class="name" src="images/photo.png"> </img>
+      <div class = "entire-menu">
+        <div class="icon-menu">
+          <span class="fa-layers fa-fw">
+            <div class = "bars"> <i class="fa fa-bars"></i> </div>
+            <div class = "close"> <i class="fas fa-times"></i> </div>
+          </span>
+          Menu
+        </div>
+
+        <div class = "menu">
+          <nav class="menu-list">
+            <a href="#" id = "home"> Home </a> <br>
+            <div class = "menu-not-home">
+              <a href="#" id = "about"> About </a> <br>
+              <a href="#" id = "experiences"> Experiences </a> <br>
+              <a href="#" id = "portfolio"> Portfolio </a> <br>
+              <a href="#" id = "contact"> Contact </a> <br>
+            </div>
+          </nav>
+        </div>
       </div>
+
+      <div class = "line"><hr></div>
+      <div class = "bg"></div>
+
+      <div class = "everything">
+
+<!-- all the elements in the home page -->
+      <div class = "home-stuff">
+        <div class = "canvas-div">
+          <canvas width="630" class = "draw-text">
+            <div class="txtStyle">SHARON YE</div>
+          </canvas>
+        </div>
+
+        <div class = "blob">
+          <img class="name" src="blob.svgz"> </img>
+        </div>
+      </div>
+
+
+<!-- all the elements in the about page -->
+      <div class = "about-stuff">
+      </div>
+
+
+<!-- all the elements in the experiences page -->
+      <div class = "experiences-stuff">
+      </div>
+
+
+<!-- all the elements in the portfolio page -->
+      <div class = "portfolio-stuff">
+      </div>
+
+
+<!-- all the elements in the contacts page -->
+      <div class = "contact-stuff">
+      </div>
+
+
+    </div>
     </body>
+
+
+  </html>

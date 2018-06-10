@@ -1,4 +1,5 @@
 $(document).ready(function() {
+  $('.typer').animate({visibility: "visible"});
   $('.typer').typeIt({
         speed: 120,
         autostart: true,
@@ -42,6 +43,7 @@ $(document).ready(function() {
   ctx.font = "100px Mrs Saint Delafield, cursive, TSCu_Comic, sans-serif";
   ctx.lineWidth = 1; ctx.lineJoin = "round"; ctx.globalAlpha = 2/3;
   ctx.strokeStyle = ctx.fillStyle = "#6E6E6E";
+  ctx.imageSmoothingEnabled = false;
 //F9EDF7
   setTimeout(function() {
     (function loop() {

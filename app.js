@@ -42,18 +42,12 @@ $(document).ready(function() {
     $(".portfolio-stuff").delay(500).css({visibility: "hidden"}).animate({visibility: "hidden"});
     $(".contact-stuff").delay(500).css({visibility: "hidden"}).animate({visibility: "hidden"});
     //making about page show up
-    $(".about-stuff").delay(800).css({visibility: "visible", opacity: 0}).animate({visibility: "visible", opacity: 1}, 500);
-    $("#about-title").delay(800).css({visibility: "visible", opacity: 0}).animate({visibility: "visible", opacity: 1}, 2000);
-    // $('#about-title').removeAttr('style');
-    // $('#about-title').stop(true);
+    $(".about-stuff").css({visibility: "visible", opacity: 0}).delay(800).animate({visibility: "visible", opacity: 1}, 500);
+    $("#about-title").delay(1200).css({visibility: "visible", opacity: 0}).animate({visibility: "visible", opacity: 1}, 1000);
+    $(".random-fact-div").delay(2200).css({visibility: "visible", opacity: 0}).animate({visibility: "visible", opacity: 1}, 1000);
+    $("#intro").delay(2000).css({visibility: "visible", opacity: 0}).animate({visibility: "visible", opacity: 1}, 1000);
+    $("#about-pic").delay(2000).css({visibility: "visible", opacity: 0}).animate({visibility: "visible", opacity: 1}, 1000);
 
-    // $('#about-title').typeIt({
-    //       speed: 300,
-    //       autostart: true,
-    //       startDelay: 1300,
-    // });
-
-    //actual stuff on this page
   });
 
 
@@ -67,13 +61,8 @@ $(document).ready(function() {
     $(".contact-stuff").delay(500).css({visibility: "hidden"}).animate({visibility: "hidden"});
     //making about page show up
     $(".experiences-stuff").delay(900).css({visibility: "visible", opacity: 0}).animate({visibility: "visible", opacity: 1}, 500);
-    $("#experiences-title").delay(800).css({visibility: "visible", opacity: 0}).animate({visibility: "visible", opacity: 1}, 2000);
-    // $('#experiences-title').typeIt({
-    //       speed: 300,
-    //       autostart: true,
-    //       startDelay: 1300,
-    // });
-    //actual stuff on this page
+    $("#experiences-title").delay(1200).css({visibility: "visible", opacity: 0}).animate({visibility: "visible", opacity: 1}, 2000);
+
   });
 
 
@@ -87,13 +76,8 @@ $(document).ready(function() {
     $(".contact-stuff").delay(500).css({visibility: "hidden"}).animate({visibility: "hidden"});
     //making about page show up
     $(".portfolio-stuff").delay(900).css({visibility: "visible", opacity: 0}).animate({visibility: "visible", opacity: 1}, 500);
-    $("#portfolio-title").delay(800).css({visibility: "visible", opacity: 0}).animate({visibility: "visible", opacity: 1}, 2000);
-    // $('#portfolio-title').typeIt({
-    //       speed: 300,
-    //       autostart: true,
-    //       startDelay: 1300,
-    // });
-    //actual stuff on this page
+    $("#portfolio-title").delay(1200).css({visibility: "visible", opacity: 0}).animate({visibility: "visible", opacity: 1}, 2000);
+
   });
 
 
@@ -107,13 +91,8 @@ $(document).ready(function() {
     $(".about-stuff").delay(500).css({visibility: "hidden"}).animate({visibility: "hidden"});
     //making about page show up
     $(".contact-stuff").delay(900).css({visibility: "visible", opacity: 0}).animate({visibility: "visible", opacity: 1}, 500);
-    $("#contact-title").delay(800).css({visibility: "visible", opacity: 0}).animate({visibility: "visible", opacity: 1}, 2000);
-    // $('#contact-title').typeIt({
-    //       speed: 300,
-    //       autostart: true,
-    //       startDelay: 1300,
-    // });
-    //actual stuff on this page
+    $("#contact-title").delay(1200).css({visibility: "visible", opacity: 0}).animate({visibility: "visible", opacity: 1}, 2000);
+
   });
 
 
@@ -123,7 +102,6 @@ $(document).ready(function() {
 //drawing out my name of the front page
   var ctx = document.querySelector("canvas").getContext("2d"),
       dashLen = 220, dashOffset = dashLen, speed = 10,
-      // txt = " Sharon", x = 30, i = 0;
       txt = " Sharon", x = 30, i = 0;
 
 

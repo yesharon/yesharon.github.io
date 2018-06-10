@@ -166,6 +166,7 @@ canvas {
 .bg {
   width: 75%;
   height: 0%;
+  /* height: 78%; */
   align-items: center;
   background-color: #BDBCBC;
   position: absolute;
@@ -176,9 +177,10 @@ canvas {
 
 
 /* CSS for the about page!! */
-.about-stuff {
+#about-stuff {
   opacity: 0;
   z-index: 16;
+  position: absolute;
 }
 #about-title {
   color: white;
@@ -189,8 +191,52 @@ canvas {
   position: absolute;
   z-index: 16;
   font-weight: lighter;
+
+}
+#about-pic {
+  width: 33%;
+  height: 70%;
+  z-index: 16;
+  position: absolute;
+  float: right;
+  right: 13%;
+  bottom: 10%;
+  opacity: 0;
+}
+#intro {
+  position: absolute;
+  margin-top: 11%;
+  margin-left: 15%;
+  width: 40%;
+  z-index: 16;
+  font-family: 'Bubbler One';
+  font-size: 19px;
+  line-height: 1.3em;
+  color: white;
+  opacity: 0;
 }
 
+.random-fact-div {
+  position: absolute;
+  z-index: 16;
+  font-family: 'Bubbler One';
+  font-size: 17px;
+  line-height: 1.7em;
+  margin-top: 22.8%;
+  margin-left: 15%;
+  width: 36%;
+  background-color: #C8C8C8;
+  padding-left: 2%;
+  color: white;
+  padding-right: 2%;
+  opacity: 0;
+}
+.fa-ul {
+  font-size: 20px;
+  margin-top: 0;
+  padding-top: 0;
+  margin-left: 7%;
+}
 
 /* CSS for the experiences page!! */
 .experiences-stuff {

@@ -171,4 +171,73 @@ canvas {
   position: absolute;
   top: 10.3%;
   left: 13%;
+  z-index: 15;
+}
+
+
+/* CSS for the about page!! */
+.about-stuff {
+  opacity: 0;
+  z-index: 16;
+}
+#about-title {
+  color: white;
+  font-family: 'Bubbler One';
+  font-size: 70px;
+  margin-top: 5%;
+  margin-left: 14%;
+  position: absolute;
+  z-index: 16;
+  font-weight: lighter;
+}
+
+
+/* CSS for the experiences page!! */
+.experiences-stuff {
+  opacity: 0;
+  z-index: 16;
+}
+#experiences-title {
+  color: white;
+  font-family: 'Bubbler One';
+  font-size: 70px;
+  margin-top: 5%;
+  margin-left: 14%;
+  position: absolute;
+  z-index: 16;
+  font-weight: lighter;
+}
+
+
+/* CSS for the portfolio page!! */
+.portfolio-stuff {
+  opacity: 0;
+  z-index: 16;
+}
+#portfolio-title {
+  color: white;
+  font-family: 'Bubbler One';
+  font-size: 70px;
+  margin-top: 5%;
+  margin-left: 14%;
+  position: absolute;
+  z-index: 16;
+  font-weight: lighter;
+}
+
+
+/* CSS for the contact page!! */
+.contact-stuff {
+  opacity: 0;
+  z-index: 16;
+}
+#contact-title {
+  color: white;
+  font-family: 'Bubbler One';
+  font-size: 70px;
+  margin-top: 5%;
+  margin-left: 14%;
+  position: absolute;
+  z-index: 16;
+  font-weight: lighter;
 }

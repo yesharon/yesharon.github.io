@@ -61,13 +61,16 @@ $(document).ready(function() {
     $(".contact-stuff").delay(500).css({visibility: "hidden"}).animate({visibility: "hidden"});
     //making about page show up
     $(".experiences-stuff").delay(900).css({visibility: "visible", opacity: 0}).animate({visibility: "visible", opacity: 1}, 500);
-    $("#experiences-title").delay(1200).css({visibility: "visible", opacity: 0}).animate({visibility: "visible", opacity: 1}, 2000);
+    $("#experiences-title").delay(1200).css({visibility: "visible", opacity: 0}).animate({visibility: "visible", opacity: 1}, 1000);
+    $(".exp-appear").delay(2000).css({visibility: "visible", opacity: 0}).animate({visibility: "visible", opacity: 1}, 1000);
+
   });
   $("#skills-experiences").click(function() {
     $(".a").animate({opacity: 0}, 1000);
     $(".b").animate({opacity: 0}, 1000);
     $(".c").animate({opacity: 0}, 1000);
     $(".d").animate({opacity: 0}, 1000);
+    $("#click-one").animate({opacity: 0}, 1000);
     $(".skill-option").css({visibility: "visible", opacity: 0}).animate({visibility: "visible", opacity: 1});
     $(".skill-list1").delay(400).css({visibility: "visible", opacity: 0}).animate({visibility: "visible", opacity: 1}, 1000);
     $(".skill-list2").delay(400).css({visibility: "visible", opacity: 0}).animate({visibility: "visible", opacity: 1}, 1000);
@@ -80,6 +83,7 @@ $(document).ready(function() {
     $(".b").animate({opacity: 0}, 1000);
     $(".c").animate({opacity: 0}, 1000);
     $(".e").animate({opacity: 0}, 1000);
+    $("#click-one").animate({opacity: 0}, 1000);
     $(".professional-option").css({visibility: "visible", opacity: 0}).animate({visibility: "visible", opacity: 1});
     $(".prof-titles").delay(400).css({visibility: "visible", opacity: 0}).animate({visibility: "visible", opacity: 1}, 1500);
     $(".prof-sec").delay(1200).css({visibility: "visible", opacity: 0}).animate({visibility: "visible", opacity: 1}, 1500);
@@ -90,6 +94,7 @@ $(document).ready(function() {
       $(".d").animate({opacity: 0}, 1000);
       $(".c").animate({opacity: 0}, 1000);
       $(".e").animate({opacity: 0}, 1000);
+      $("#click-one").animate({opacity: 0}, 1000);
       $(".leadership-option").css({visibility: "visible", opacity: 0}).animate({visibility: "visible", opacity: 1});
       $(".left-col").delay(400).css({visibility: "visible", opacity: 0}).animate({visibility: "visible", opacity: 1}, 1500);
       $(".lead-sec").delay(1200).css({visibility: "visible", opacity: 0}).animate({visibility: "visible", opacity: 1}, 1500);
@@ -100,6 +105,7 @@ $(document).ready(function() {
       $(".b").animate({opacity: 0}, 1000);
       $(".d").animate({opacity: 0}, 1000);
       $(".e").animate({opacity: 0}, 1000);
+      $("#click-one").animate({opacity: 0}, 1000);
       $(".project-option").css({visibility: "visible", opacity: 0}).animate({visibility: "visible", opacity: 1});
       $(".proj-title").delay(400).css({visibility: "visible", opacity: 0}).animate({visibility: "visible", opacity: 1}, 1500);
       $(".proj-sec").delay(1200).css({visibility: "visible", opacity: 0}).animate({visibility: "visible", opacity: 1}, 1500);
@@ -109,6 +115,7 @@ $(document).ready(function() {
       $(".b").animate({opacity: 0}, 1000);
       $(".c").animate({opacity: 0}, 1000);
       $(".e").animate({opacity: 0}, 1000);
+      $("#click-one").animate({opacity: 0}, 1000);
       $(".program-option").css({visibility: "visible", opacity: 0}).animate({visibility: "visible", opacity: 1});
       $(".program-title").delay(400).css({visibility: "visible", opacity: 0}).animate({visibility: "visible", opacity: 1}, 1500);
       $(".prog-sec").delay(1200).css({visibility: "visible", opacity: 0}).animate({visibility: "visible", opacity: 1}, 1500);

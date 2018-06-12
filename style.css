@@ -124,15 +124,13 @@ canvas {
 
 .bg {
   width: 75%;
-  /* height: 0%; */
-  height: 78%;
+  height: 0%;
+  /* height: 78%; */
   align-items: center;
   background-color: #BDBCBC;
   position: absolute;
   margin-top: 4.48%;
   margin-left: 12.44%;
-  /* top: 10.3%; */
-  /* left: 13%; */
   z-index: 15;
 }
 
@@ -201,7 +199,7 @@ canvas {
 
 /* CSS for the experiences page!! */
 .experiences-stuff {
-  /* opacity: 0; */
+  opacity: 0;
   z-index: 16;
 }
 #experiences-title {
@@ -234,6 +232,16 @@ canvas {
   z-index: 15;
   margin-top: 7%;
   margin-left: 42%;
+}
+
+#click-one {
+  font-family: 'Bubbler One';
+  font-size: 40px;
+  margin-top: 21.5%;
+  margin-left: 58%;
+  position: absolute;
+  z-index: 16;
+  color: white;
 }
 
 .skill-list1 {

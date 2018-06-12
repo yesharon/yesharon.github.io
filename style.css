@@ -114,47 +114,6 @@ hr {
   z-index: 9;
 }
 
-/* .name {
-  width: 35%;
-  top: 50%;
-  transform: translateY(-50%);
-  left:50%;
-  transform: translateX(-50%);
-  position: fixed;
-
-}
-
-.blob {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background-color: green;
-  z-index: 0;
-  top: 0;
-  left: 0;
-} */
-
-/*.blob {
-    background: rgba(0,0,0,0);
-    width: 0px;
-    height: 0px;
-    margin-top: 200px;
-    margin-left: 700px;
-    -webkit-transition: width 1s, height 1s, margin 1s;
-    -moz-transition: width 1s, height 1s, margin 1s;
-    -ms-transition: width 1s, height 1s, margin 1s;
-    transition: width 1s, height 1s, margin 1s;
-    z-index: 4;
-    position: fixed;
-}
-.blob:hover {
-    width: 400px;
-    height: 400px;
-    margin-top: 5px;
-    margin-left: 505px;
-    //initial margin - (width change (and/or height change)/2), so here 100px is initial margin, and the change is (100px final W/H - 10px initial W/H = 90px change, so 100px - (90px / 2 [= 45px]) = 55px)
-}*/
-
 canvas {
     padding-left: 32%;
     position: absolute;
@@ -165,13 +124,15 @@ canvas {
 
 .bg {
   width: 75%;
-  height: 0%;
-  /* height: 78%; */
+  /* height: 0%; */
+  height: 78%;
   align-items: center;
   background-color: #BDBCBC;
   position: absolute;
-  top: 10.3%;
-  left: 13%;
+  margin-top: 4.48%;
+  margin-left: 12.44%;
+  /* top: 10.3%; */
+  /* left: 13%; */
   z-index: 15;
 }
 
@@ -180,7 +141,6 @@ canvas {
 #about-stuff {
   opacity: 0;
   z-index: 16;
-  position: absolute;
 }
 #about-title {
   color: white;
@@ -191,6 +151,7 @@ canvas {
   position: absolute;
   z-index: 16;
   font-weight: lighter;
+  opacity: 0;
 
 }
 #about-pic {
@@ -240,7 +201,7 @@ canvas {
 
 /* CSS for the experiences page!! */
 .experiences-stuff {
-  opacity: 0;
+  /* opacity: 0; */
   z-index: 16;
 }
 #experiences-title {
@@ -252,6 +213,244 @@ canvas {
   position: absolute;
   z-index: 16;
   font-weight: lighter;
+}
+.list-experiences {
+  font-family: 'Bubbler One';
+  font-size: 18px;
+  margin-top: 12.5%;
+  margin-left: 18%;
+  position: absolute;
+  z-index: 16;
+  line-height: .8em;
+  color: white;
+  cursor: pointer;
+}
+
+.experience-box {
+  height: 67%;
+  width: 42%;
+  background-color: #A1A1A1;
+  position: absolute;
+  z-index: 15;
+  margin-top: 7%;
+  margin-left: 42%;
+}
+
+.skill-list1 {
+  position: absolute;
+  z-index: 16;
+  font-family: 'Bubbler One';
+  font-size: 17px;
+  margin-left: 45%;
+  font-weight: bolder;
+  margin-top: 10%;
+  color: white;
+  line-height: 1.78em;
+}
+.skill-list2 {
+  position: absolute;
+  z-index: 16;
+  font-family: 'Bubbler One';
+  font-size: 17px;
+  margin-left: 64%;
+  font-weight: bolder;
+  margin-top: 10%;
+  color: white;
+  line-height: 1.78em;
+}
+.skill-bars1{
+  height: 5.8%;
+  position: relative;
+  z-index: 16;
+  background-color: #717171;
+  margin-top: 9.1%;
+  box-sizing: border-box;
+}
+.skill-bars2{
+  height: 5.8%;
+  position: relative;
+  z-index: 16;
+  background-color: #717171;
+  margin-top: 9.1%;
+  box-sizing: border-box;
+}
+.skill-bars3{
+  height: 5.8%;
+  position: relative;
+  z-index: 16;
+  background-color: #717171;
+  margin-top: 3.8%;
+  box-sizing: border-box;
+}
+.skill-box {
+  padding-top: 9.6%;
+  z-index: 16;
+  float: left;
+  width: 12%;
+  margin-left: 51%;
+  height: 35%;
+}
+.skill-box2 {
+  padding-top: 9.6%;
+  z-index: 16;
+  width: 12%;
+  margin-left: 71.2%;
+  height: 35%;
+}
+.skill-box3 {
+  padding-top: 3.7%;
+  z-index: 16;
+  width: 32.4%;
+  margin-left: 51%;
+  height: 35%;
+}
+.new-br {
+  font-size: 170%;
+}
+
+#photoshop {width: 90%; background-color: #F7DBF3; height: 100%; position:relative;}
+#illustrator {width: 80%; background-color: #F7DBF3; height: 100%; position:relative;}
+#unity {width: 50%; background-color: #F7DBF3; height: 100%; position:relative;}
+#java {width: 93%; background-color: #DBF7F7; height: 100%; position:relative;}
+#python {width: 93%; background-color: #DBF7F7; height: 100%; position:relative;}
+#c {width: 85%; background-color: #DBF7F7; height: 100%; position:relative;}
+#sql {width: 70%; background-color: #DBF7F7; height: 100%; position:relative;}
+#riscv {width: 60%; background-color: #DBF7F7; height: 100%; position:relative;}
+#excel {width: 97%; background-color: #F7DBF3; height: 100%; position:relative;}
+#powerpoint {width: 97%; background-color: #F7DBF3; height: 100%; position:relative;}
+#word {width: 97%; background-color: #F7DBF3; height: 100%; position:relative;}
+#html {width:93%; background-color: #DBF7F7; height: 100%; position:relative;}
+#css {width: 93%; background-color: #DBF7F7; height: 100%; position:relative;}
+#javascript {width: 85%; background-color: #DBF7F7; height: 100%; position:relative;}
+#ruby {width: 50%; background-color: #DBF7F7; height: 100%; position:relative;}
+#mapreduce {width: 50%; background-color: #DBF7F7; height: 100%; position:relative;}
+#english {width: 100%; background-color: #D6F3DB; height: 100%; position:relative;}
+#chinese {width: 100%; background-color: #D6F3DB; height: 100%; position:relative;}
+#french {width: 60%; background-color: #D6F3DB; height: 100%; position:relative;}
+
+.skill-option {
+  opacity: 0;
+}
+
+.exp-title {
+  width: 15%;
+  margin-left: 43%;
+  color: white;
+  font-family: 'Bubbler One';
+  font-size: 20px;
+  top: 25%;
+  position: absolute;
+  z-index: 16;
+  line-height: 1.2em;
+}
+
+.vertp {
+  margin-left: 54.8%;
+}
+.verta {
+  margin-left: 53.5%;
+}
+.timep {
+  left: 55.3%;
+}
+.timea {
+  left: 54%;
+}
+.temp2 {
+  height: 3%;
+  width: 7.3%;
+  border-radius: 7px;
+  position: absolute;
+  z-index: 16;
+  font-size: 12px;
+  font-family: 'Bubbler One';
+  line-height: 0em;
+  color: #4D4D4B;
+  font-weight: bolder;
+}
+.leadp {
+  width: 28%;
+  left: 56%;
+}
+.leada {
+  width: 29%;
+  left: 55%;
+}
+.temp3 {
+  height: 10%;
+  border-radius: 7px;
+  position: absolute;
+  z-index: 16;
+  font-size: 13px;
+  font-family: 'Bubbler One';
+  color: white;
+}
+.professional-option {
+  opacity: 0;
+}
+.project-option {
+  opacity: 0;
+}
+.program-title {
+  top: 23%;
+}
+.temp1 {
+  height: 14%;
+  border-left: .2px;
+  border-style: dashed;
+  position: absolute;
+  z-index: 16;
+}
+.vert {
+  margin-left: 57%;
+}
+/* vertical bars for other sections */
+.v1 {top: 21%; border-color: #F7DBF3;}
+.v2 {top: 41%; border-color: #DBF7F7;}
+.v3 {top: 61%; border-color: #D6F3DB;}
+
+.time {
+  left: 57.53%;
+}
+.time1 {background-color: #F7DBF3; text-align: center; top: 20.5%;}
+.time2 {background-color: #DBF7F7; text-align: center; top: 40.5%;}
+.time3 {background-color: #D6F3DB; text-align: center; top: 60.5%;}
+.lead {
+  width: 25%;
+  left: 58.4%;
+}
+.lead1 {top: 22%;}
+.lead2 {top: 42%;}
+.lead3 {top: 62%;}
+.leadership-option {
+  opacity: 0;
+}
+
+/* experiences - program section */
+.v4 {top: 21%; border-color: #F7DBF3;}
+.v5 {top: 36%; border-color: #DBF7F7;}
+.v6 {top: 51%; border-color: #D6F3DB;}
+.v7 {top: 66%; border-color: #FDFEDF;}
+.vert-prog {
+  height: 11%;
+  border-left: .2px;
+  border-style: dashed;
+  position: absolute;
+  z-index: 16;
+}
+
+.time4 {background-color: #F7DBF3; text-align: center; top: 20.5%;}
+.time5 {background-color: #DBF7F7; text-align: center; top: 35.5%;}
+.time6 {background-color: #D6F3DB; text-align: center; top: 50.5%;}
+.time7 {background-color: #FDFEDF; text-align: center; top: 65.5%;}
+
+.lead4 {top: 22%;}
+.lead5 {top: 37%;}
+.lead6 {top: 52%;}
+.lead7 {top: 67%;}
+
+.program-option {
+  opacity: 0;
 }
 
 

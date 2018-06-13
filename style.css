@@ -471,7 +471,8 @@ canvas {
   color: white;
   font-family: 'Bubbler One';
   font-size: 70px;
-  margin-top: 5%;
+  /* margin-top: 5%; */
+  top: 3.1%;
   margin-left: 14%;
   position: absolute;
   z-index: 16;
@@ -488,9 +489,76 @@ canvas {
   color: white;
   font-family: 'Bubbler One';
   font-size: 70px;
-  margin-top: 5%;
+  /* margin-top: 5%; */
+  top: 3.1%;
   margin-left: 14%;
   position: absolute;
   z-index: 16;
   font-weight: lighter;
 }
+#contact-pic {
+  width: 35%;
+  height: 80%;
+  margin-left: 52%;
+  position: absolute;
+  z-index: 16;
+  top:10%;
+}
+.contact-icon {
+  height: 8%;
+  position: absolute;
+  z-index: 16;
+  margin-left: 17%;
+}
+#gmail {top: 26%;}
+#linkedin {top: 41%;}
+#facebook {top: 56%;}
+#instagram {top: 71%;}
+.gmailspan {
+  top:28.5%;
+  color: white;
+  position: absolute;
+  z-index: 16;
+  margin-left: 23%;
+  cursor: pointer;
+}
+.linkedinspan {
+  top:44%;
+  color: white;
+  position: absolute;
+  z-index: 16;
+  margin-left: 23%;
+  cursor: pointer;
+}
+.facebookspan {
+  top:58.5%;
+  color: white;
+  position: absolute;
+  z-index: 16;
+  margin-left: 23%;
+  cursor: pointer;
+}
+.instagramspan {
+  top:74%;
+  color: white;
+  position: absolute;
+  z-index: 16;
+  margin-left: 23%;
+  cursor: pointer;
+}
+.l1 {opacity: 0;}
+.l2 {opacity: 0;}
+.l3 {opacity: 0;}
+.l4 {opacity: 0;}
+.link-out {
+  color: white;
+  position: absolute;
+  z-index: 16;
+  margin-left: 27%;
+  font-family: 'Bubbler One';
+  font-size: 25px;
+}
+.out1 {top: 24%;}
+.out2 {top: 39.5%;}
+.out3 {top: 54%;}
+.out4 {top: 69.5%;}

@@ -123,17 +123,15 @@ $(document).ready(function() {
 
 
   $("#portfolio").click(function() {
-    //hiding everything else
-    $(".experiences-stuff").animate({opacity: 0}, 500);
     $(".about-stuff").animate({opacity: 0}, 500);
+    $(".experiences-stuff").animate({opacity: 0}, 500);
     $(".contact-stuff").animate({opacity: 0}, 500);
-    $(".experiences-stuff").delay(500).css({visibility: "hidden"}).animate({visibility: "hidden"});
     $(".about-stuff").delay(500).css({visibility: "hidden"}).animate({visibility: "hidden"});
+    $(".experiences-stuff").delay(500).css({visibility: "hidden"}).animate({visibility: "hidden"});
     $(".contact-stuff").delay(500).css({visibility: "hidden"}).animate({visibility: "hidden"});
-    //making about page show up
+    //
     $(".portfolio-stuff").delay(900).css({visibility: "visible", opacity: 0}).animate({visibility: "visible", opacity: 1}, 500);
-    $("#portfolio-title").delay(1200).css({visibility: "visible", opacity: 0}).animate({visibility: "visible", opacity: 1}, 2000);
-
+    $("#portfolio-title").delay(1200).css({visibility: "visible", opacity: 0}).animate({visibility: "visible", opacity: 1}, 1000);
   });
 
 
@@ -147,10 +145,51 @@ $(document).ready(function() {
     $(".about-stuff").delay(500).css({visibility: "hidden"}).animate({visibility: "hidden"});
     //making about page show up
     $(".contact-stuff").delay(900).css({visibility: "visible", opacity: 0}).animate({visibility: "visible", opacity: 1}, 500);
-    $("#contact-title").delay(1200).css({visibility: "visible", opacity: 0}).animate({visibility: "visible", opacity: 1}, 2000);
+    $("#contact-title").delay(1200).css({visibility: "visible", opacity: 0}).animate({visibility: "visible", opacity: 1}, 1000);
+    $(".contact0").delay(1200).css({visibility: "visible", opacity: 0}).animate({visibility: "visible", opacity: 1}, 3200);
+    $(".contact1").delay(2000).css({visibility: "visible", opacity: 0}).animate({visibility: "visible", opacity: 1}, 1000);
+    $(".contact2").delay(2300).css({visibility: "visible", opacity: 0}).animate({visibility: "visible", opacity: 1}, 1000);
+    $(".contact3").delay(2600).css({visibility: "visible", opacity: 0}).animate({visibility: "visible", opacity: 1}, 1000);
+    $(".contact4").delay(2900).css({visibility: "visible", opacity: 0}).animate({visibility: "visible", opacity: 1}, 1000);
+
 
   });
-
+  $(".gmailspan").click(function() {
+    if ($(".r1").css('opacity') == 1) {
+      $(".l1").css({opacity: 0, visibility: "visible"}).animate({opacity: 1}, 200);
+      $(".r1").css({opacity: 1, visibility: "visible"}).animate({opacity: 0}, 200);
+    } else {
+      $(".r1").css({opacity: 0, visibility: "visible"}).animate({opacity: 1}, 200);
+      $(".l1").css({opacity: 1, visibility: "visible"}).animate({opacity: 0}, 200);
+    }
+  });
+  $(".linkedinspan").click(function() {
+    if ($(".r2").css('opacity') == 1) {
+      $(".l2").css({opacity: 0, visibility: "visible"}).animate({opacity: 1}, 200);
+      $(".r2").css({opacity: 1, visibility: "visible"}).animate({opacity: 0}, 200);
+    } else {
+      $(".r2").css({opacity: 0, visibility: "visible"}).animate({opacity: 1}, 200);
+      $(".l2").css({opacity: 1, visibility: "visible"}).animate({opacity: 0}, 200);
+    }
+  });
+  $(".facebookspan").click(function() {
+    if ($(".r3").css('opacity') == 1) {
+      $(".l3").css({opacity: 0, visibility: "visible"}).animate({opacity: 1}, 200);
+      $(".r3").css({opacity: 1, visibility: "visible"}).animate({opacity: 0}, 200);
+    } else {
+      $(".r3").css({opacity: 0, visibility: "visible"}).animate({opacity: 1}, 200);
+      $(".l3").css({opacity: 1, visibility: "visible"}).animate({opacity: 0}, 200);
+    }
+  });
+  $(".instagramspan").click(function() {
+    if ($(".r4").css('opacity') == 1) {
+      $(".l4").css({opacity: 0, visibility: "visible"}).animate({opacity: 1}, 200);
+      $(".r4").css({opacity: 1, visibility: "visible"}).animate({opacity: 0}, 200);
+    } else {
+      $(".r4").css({opacity: 0, visibility: "visible"}).animate({opacity: 1}, 200);
+      $(".l4").css({opacity: 1, visibility: "visible"}).animate({opacity: 0}, 200);
+    }
+  });
 
 
 

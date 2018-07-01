@@ -6,6 +6,22 @@ $(document).ready(function() {
         startDelay: 600,
 	});
 
+  jQuery(function(){
+    $('#fotorama').fotorama({
+        width: 1000, // Width of container
+        height: 600, // Height of container
+        startImg: 10, // Initial image
+        transitionDuration: 400, // Duration of transitio
+        touchStyle: true, // Enable dragging
+        margin: 10, // Margin between images
+        arrowsColor: '#3399cc', // Arrows color
+        thumbSize: 50, // Thumb size (height)
+        thumbBorderWidth: 1, // Thumb border width
+        caption: true, // Display captions
+    });
+});
+
+
   $(".icon-menu").click(function() {
     if ($(".close").css('opacity') == 0) {
       $(".menu").css({visibility: "visible", opacity: 0}).animate({visibility: "visible", opacity: 1}, 500);

@@ -7,7 +7,7 @@ $(document).ready(function() {
 	});
 
   jQuery(function(){
-    $('#fotorama').fotorama({
+    $('.fotorama').fotorama({
         width: 1000, // Width of container
         height: 600, // Height of container
         startImg: 10, // Initial image

@@ -6,7 +6,7 @@ $(document).ready(function() {
         startDelay: 600,
 	});
 
-  jQuery(function(){
+  window.onload = jQuery(function(){
     $('.fotorama').fotorama({
         width: 1000, // Width of container
         height: 600, // Height of container

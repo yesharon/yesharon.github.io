@@ -562,3 +562,56 @@ canvas {
 .out2 {top: 39.5%;}
 .out3 {top: 54%;}
 .out4 {top: 69.5%;}
+
+
+/* body {
+	background: rgb(191, 76, 76);
+} */
+
+/* slider
+----------------------*/
+.slide-wrap {
+  margin: 5% auto 0;
+  width: 80%;
+  height: 50%;
+}
+.slide-mask {
+  position: relative;
+  overflow: hidden;
+  height: 50%;
+}
+.slide-group {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 100%;
+}
+.slide {
+  height: 50%;
+	font: 100 90px/135px "lato";
+	font-size: 2em;
+	color: red;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+/* nav
+----------------------*/
+.slide-nav {
+  text-align: center;
+}
+.slide-nav ul {
+	margin: 0;
+	padding: 0;
+}
+.slide-nav li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: rgb(175, 56, 56);
+  cursor: pointer;
+  margin-left: .5em;
+}
+.slide-nav li.current {
+	background: rgb(144, 39, 39);
+}

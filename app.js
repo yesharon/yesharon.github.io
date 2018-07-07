@@ -126,6 +126,8 @@ $(document).ready(function() {
 
 
   $("#portfolio").click(function() {
+
+
     $(".about-stuff").animate({opacity: 0}, 500);
     $(".experiences-stuff").animate({opacity: 0}, 500);
     $(".contact-stuff").animate({opacity: 0}, 500);
@@ -150,6 +152,7 @@ $(document).ready(function() {
   //         caption: true, // Display captions
   //     });
   // });
+
     var $slide = $('.slide'),
       $slideGroup = $('.slide-group'),
       $bullet = $('.bullet');

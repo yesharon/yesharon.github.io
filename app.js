@@ -136,7 +136,7 @@ $(document).ready(function() {
     $(".portfolio-stuff").delay(900).css({visibility: "visible", opacity: 0}).animate({visibility: "visible", opacity: 1}, 500);
     $("#portfolio-title").delay(1200).css({visibility: "visible", opacity: 0}).animate({visibility: "visible", opacity: 1}, 1000);
 
-    window.onload = jQuery(function(){
+    $(window).load(function(){
       $('.fotorama').fotorama({
           width: 1000, // Width of container
           height: 600, // Height of container

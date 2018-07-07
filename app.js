@@ -6,20 +6,7 @@ $(document).ready(function() {
         startDelay: 600,
 	});
 
-  window.onload = jQuery(function(){
-    $('.fotorama').fotorama({
-        width: 1000, // Width of container
-        height: 600, // Height of container
-        startImg: 10, // Initial image
-        transitionDuration: 400, // Duration of transitio
-        touchStyle: true, // Enable dragging
-        margin: 10, // Margin between images
-        arrowsColor: '#3399cc', // Arrows color
-        thumbSize: 50, // Thumb size (height)
-        thumbBorderWidth: 1, // Thumb border width
-        caption: true, // Display captions
-    });
-});
+
 
 
   $(".icon-menu").click(function() {
@@ -148,6 +135,22 @@ $(document).ready(function() {
     //
     $(".portfolio-stuff").delay(900).css({visibility: "visible", opacity: 0}).animate({visibility: "visible", opacity: 1}, 500);
     $("#portfolio-title").delay(1200).css({visibility: "visible", opacity: 0}).animate({visibility: "visible", opacity: 1}, 1000);
+
+    window.onload = jQuery(function(){
+      $('.fotorama').fotorama({
+          width: 1000, // Width of container
+          height: 600, // Height of container
+          startImg: 10, // Initial image
+          transitionDuration: 400, // Duration of transitio
+          touchStyle: true, // Enable dragging
+          margin: 10, // Margin between images
+          arrowsColor: '#3399cc', // Arrows color
+          thumbSize: 50, // Thumb size (height)
+          thumbBorderWidth: 1, // Thumb border width
+          caption: true, // Display captions
+      });
+  });
+
   });
 
 

@@ -71,15 +71,15 @@
 
 <!-- all the elements in the about page -->
       <div class = "about-stuff">
-        <h2 id = "about-title"> ABOUT </h2>
-        <embed id = "about-pic" src="about-me.svg">
-        <h3 id = "intro">Hi! My name is Sharon Ye and I am a junior at the University of California, Berkeley, majoring in
+        <h2 class = "abt" id = "about-title"> ABOUT </h2>
+        <embed class = "abt" id = "about-pic" src="about-me.svg">
+        <h3 class = "abt" id = "intro">Hi! My name is Sharon Ye and I am a junior at the University of California, Berkeley, majoring in
         Computer Science and Business Administration. <br><br>
       I was born in Springfield, Michigan, and have sinced moved from Michigan to China, back to Michigan,
       to California, to New Jersey, to Texas, until finally settling down in a small city called San Ramon,
       California when I was in 6th grade.</h3>
 
-        <div class = "random-fact-div">
+        <div class = "abt random-fact-div">
           <h3 id = "random-title">Random facts about myself</h3>
             <ul class="fa-ul">
               <li><span class="fa-li"><i class="fas fa-genderless"></i></span>I play badminton!</li>
@@ -93,8 +93,8 @@
 
 <!-- all the elements in the experiences page -->
       <div class = "experiences-stuff">
-        <h2 id = "experiences-title"> EXPERIENCES </h2>
-        <div class = "exp-appear list-experiences">
+        <h2 class = "ex" id = "experiences-title"> EXPERIENCES </h2>
+        <div class = "ex exp-appear list-experiences">
           <h3 id = "professional-experiences">Professional Experiences</h3><br>
           <h3 id = "leadership-experiences">Leadership & Extracurriculars</h3><br>
           <h3 id = "project-experiences">Technical Projects</h3><br>
@@ -102,10 +102,10 @@
           <h3 id = "skills-experiences">General & Technical Skills</h3>
         </div>
 
-        <div class = "exp-appear experience-box"></div>
-        <h3 class = "exp-appear" id = "click-one"> <i class="far fa-hand-point-left"></i> Click one!</h3>
+        <div class = "ex exp-appear experience-box"></div>
+        <h3 class = "ex exp-appear" id = "click-one"> <i class="far fa-hand-point-left"></i> Click one!</h3>
 
-        <div class = "skill-option">
+        <div class = "ex skill-option">
           <h3 class = "e skill-list1">
             Photoshop <br>
             Illustrator <br>
@@ -156,7 +156,7 @@
           </div>
         </div>
 
-        <div class = "professional-option">
+        <div class = "ex professional-option">
           <div class="a prof-titles exp-title">
             <b>DCA Partners</b><br>
             <i style="font-size: 16">Private Equity Analyst</i><br><br><br><br><br>
@@ -182,7 +182,7 @@
             businesses and researching the Ukrainian economic landscape to identify trends in project management needs.</h3></div>
         </div>
 
-        <div class = "leadership-option">
+        <div class = "ex leadership-option">
           <div class="b left-col exp-title">
             <b>NextGen Consulting</b><br>
             <i style="font-size: 16">Vice President of Consulting</i><br><br><br><br>
@@ -207,7 +207,7 @@
           processes involved in the operations of the organization, such as providing a platform for member voting.</h3></div>
         </div>
 
-        <div class = "project-option">
+        <div class = "ex project-option">
           <div class="c proj-title exp-title">
             <b>Gitlet</b><br>
             <i style="font-size: 16">Developer</i><br><br><br><br>
@@ -235,7 +235,7 @@
           scenes, characters, and objects were designed with Adobe Photoshop and animated on Unity.</h3></div>
         </div>
 
-        <div class = "program-option">
+        <div class = "ex program-option">
           <div class="d program-title exp-title">
             <b>Citi</b><br>
             <i style="font-size: 16">Quantitative Analysis Early Identification Program</i><br><br><br>
@@ -271,8 +271,8 @@
 
 <!-- all the elements in the portfolio page -->
       <div class = "portfolio-stuff">
-        <h2 id = "portfolio-title"> PORTFOLIO </h2>
-        <div class="slide-wrap">
+        <h2 class = "prt" id = "portfolio-title"> PORTFOLIO </h2>
+        <div class="slide-wrap prt">
           <div class="slide-mask">
             <div class="slide-group">
               <img class = "slide" height="100%" display = "block" src="Portfolio/bottles.png" data-caption="Acrylic Paint">
@@ -292,11 +292,6 @@
               <img class = "slide" height="100%" display = "block" src="Portfolio/colorful.png" data-caption="Acrylic Paint">
               <img class = "slide" height="100%" display = "block" src="Portfolio/wave.png" data-caption="Pen">
               <img class = "slide" height="100%" display = "block" src="Portfolio/wrapping.png" data-caption="Soft Pastel">
-              <!-- <li class="slide">this</li>
-              <li class="slide">is</li>
-              <li class="slide">a</li>
-              <li class="slide">simple</li>
-              <li class="slide">slider</li> -->
             </div>
           </div>
 
@@ -323,69 +318,36 @@
           </div>
         </div>
       </div>
-        <!-- <div class = "container"> -->
-          <!-- <div class = "fotorama"> -->
-          <!-- <div class="fotorama" data-arrows="true" -->
-           <!-- data-click="true" data-width = "1000" data-height = "380" data-nav="thumbs" data-keyboard = "true" data-loop="true" data-allowfullscreen="native"> -->
-           <!-- <img src="Portfolio/colorful.png" data-caption="Acrylic Paint">
-            <img src="Portfolio/bottles.png" data-caption="Acrylic Paint">
-            <img src="Portfolio/mist.png" data-caption="Charcoal">
-            <img src="Portfolio/elephant.png" data-caption="Soft Pastel">
-            <img src="Portfolio/drip.png" data-caption="Acrylic Paint">
-            <img src="Portfolio/drown.png" data-caption="Charcoal">
-            <img src="Portfolio/tree.png" data-caption="Pen, Watercolor Paint">
-            <img src="Portfolio/flowers.png" data-caption="Acrylic Paint">
-            <img src="Portfolio/matches.png" data-caption="Color Pencil">
-            <img src="Portfolio/milk.png" data-caption="Acrylic Paint">
-            <img src="Portfolio/mirror.png" data-caption="Charcoal">
-            <img src="Portfolio/self.png" data-caption="Soft Pastel">
-            <img src="Portfolio/sink.png" data-caption="Color Pencil">
-            <img src="Portfolio/skeleton.png" data-caption="Charcoal">
-            <img src="Portfolio/sunny.png" data-caption="Soft Pastel">
-            <img src="Portfolio/wave.png" data-caption="Pen">
-            <img src="Portfolio/wrapping.png" data-caption="Soft Pastel">
-          </div>
-        </div>
-      </div>
-      <script type="text/javascript">
-          $(function () {
-            $('.fotorama')
-                .on('fotorama:ready', function (e, fotorama) {
-                  fotorama.show({index: 2, time: 0});
-                })
-                .fotorama();
-          })
-        </script> -->
 
 
 <!-- all the elements in the contact page -->
       <div class = "contact-stuff">
-        <h2 id = "contact-title"> CONTACT </h2>
-        <embed class = "contact0 contact-icon" id = "contact-pic" src="contactpic.svg">
-        <a href="mailto:sharon10ye@gmail.com"><img class = "contact1 contact-icon" id = "gmail" src="gmail.svg"></a>
-        <a href = "https://www.facebook.com/sharon.ye.7"><img class = "contact3 contact-icon" id = "facebook" src="facebook.svg"></a>
-        <a href = "https://www.instagram.com/y_sharon_/"><img class = "contact4 contact-icon" id = "instagram" src="instagram.svg"></a>
-        <a href = "https://www.linkedin.com/in/sharon-ye/"><img class = "contact2 contact-icon" id = "linkedin" src="linkedin.svg"></a>
-        <span class="contact1 gmailspan fa-layers fa-fw">
-          <i class="r1 fas fa-angle-right fa-2x"></i>
-          <i class="l1 fas fa-angle-left fa-2x"></i>
+        <h2 class = "cont" id = "contact-title"> CONTACT </h2>
+        <embed class = "cont contact0 contact-icon" id = "contact-pic" src="contactpic.svg">
+        <a href="mailto:sharon10ye@gmail.com"><img class = "cont contact1 contact-icon" id = "gmail" src="gmail.svg"></a>
+        <a href = "https://www.facebook.com/sharon.ye.7"><img class = "cont contact3 contact-icon" id = "facebook" src="facebook.svg"></a>
+        <a href = "https://www.instagram.com/y_sharon_/"><img class = "cont contact4 contact-icon" id = "instagram" src="instagram.svg"></a>
+        <a href = "https://www.linkedin.com/in/sharon-ye/"><img class = "cont contact2 contact-icon" id = "linkedin" src="linkedin.svg"></a>
+        <span class="cont contact1 gmailspan fa-layers fa-fw">
+          <i class=" r1 fas fa-angle-right fa-2x"></i>
+          <i class=" l1 fas fa-angle-left fa-2x"></i>
         </span>
-        <span class="contact2 linkedinspan fa-layers fa-fw">
-          <i class="r2 fas fa-angle-right fa-2x"></i>
-          <i class="l2 fas fa-angle-left fa-2x"></i>
+        <span class="cont contact2 linkedinspan fa-layers fa-fw">
+          <i class=" r2 fas fa-angle-right fa-2x"></i>
+          <i class=" l2 fas fa-angle-left fa-2x"></i>
         </span>
-        <span class="contact3 facebookspan fa-layers fa-fw">
-          <i class="r3 fas fa-angle-right fa-2x"></i>
-          <i class="l3 fas fa-angle-left fa-2x"></i>
+        <span class="cont contact3 facebookspan fa-layers fa-fw">
+          <i class=" r3 fas fa-angle-right fa-2x"></i>
+          <i class=" l3 fas fa-angle-left fa-2x"></i>
         </span>
-        <span class="contact4 instagramspan fa-layers fa-fw">
-          <i class="r4 fas fa-angle-right fa-2x"></i>
-          <i class="l4 fas fa-angle-left fa-2x"></i>
+        <span class="cont contact4 instagramspan fa-layers fa-fw">
+          <i class=" r4 fas fa-angle-right fa-2x"></i>
+          <i class=" l4 fas fa-angle-left fa-2x"></i>
         </span>
-        <h3 class = "l1 link-out out1">sharon10ye@gmail.com</h3>
-        <h3 class = "l2 link-out out2">www.linkedin.com/in/sharon-ye/</h3>
-        <h3 class = "l3 link-out out3">www.facebook.com/sharon.ye.7</h3>
-        <h3 class = "l4 link-out out4">Username: y_sharon_</h3>
+        <h3 class = "cont l1 link-out out1">sharon10ye@gmail.com</h3>
+        <h3 class = "cont l2 link-out out2">www.linkedin.com/in/sharon-ye/</h3>
+        <h3 class = "cont l3 link-out out3">www.facebook.com/sharon.ye.7</h3>
+        <h3 class = "cont l4 link-out out4">Username: y_sharon_</h3>
         <!-- <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Gmail">Gmail</a> from <a href="https://www.flaticon.com/"     title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"     title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
       </div>
 

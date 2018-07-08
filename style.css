@@ -596,6 +596,7 @@ canvas {
 ----------------------*/
 .slide-nav {
   text-align: center;
+  margin-top: 5px;
 }
 .slide-nav ul {
 	margin: 0;
@@ -605,10 +606,10 @@ canvas {
   display: inline-block;
   width: 10px;
   height: 10px;
-  background: rgb(175, 56, 56);
+  background: #D2D2D2;
   cursor: pointer;
   margin-left: .5em;
 }
 .slide-nav li.current {
-	background: rgb(144, 39, 39);
+	background: #F4F4F4;
 }

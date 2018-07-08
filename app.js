@@ -38,9 +38,9 @@ $(document).ready(function() {
 
   $("#about").click(function() {
     //hiding everything else
-    $(".experiences-stuff").animate({opacity: 0}, 500);
-    $(".portfolio-stuff").animate({opacity: 0}, 500);
-    $(".contact-stuff").animate({opacity: 0}, 500);
+    $(".prt").animate({opacity: 0}, 500);
+    $(".ex").animate({opacity: 0}, 500);
+    $(".cont").animate({opacity: 0}, 500);
     $(".experiences-stuff").delay(500).css({visibility: "hidden"}).animate({visibility: "hidden"});
     $(".portfolio-stuff").delay(500).css({visibility: "hidden"}).animate({visibility: "hidden"});
     $(".contact-stuff").delay(500).css({visibility: "hidden"}).animate({visibility: "hidden"});
@@ -56,12 +56,12 @@ $(document).ready(function() {
 
   $("#experiences").click(function() {
     //hiding everything else
-    $(".about-stuff").animate({opacity: 0}, 500);
-    $(".portfolio-stuff").animate({opacity: 0}, 500);
-    $(".contact-stuff").animate({opacity: 0}, 500);
-    $(".about-stuff").delay(500).css({visibility: "hidden"}).animate({visibility: "hidden"});
-    $(".portfolio-stuff").delay(500).css({visibility: "hidden"}).animate({visibility: "hidden"});
-    $(".contact-stuff").delay(500).css({visibility: "hidden"}).animate({visibility: "hidden"});
+    $(".abt").animate({opacity: 0}, 500);
+    $(".cont").animate({opacity: 0}, 500);
+    $(".prt").animate({opacity: 0}, 500);
+    $(".about-stuff").delay(500).css({visibility: "visible"}).animate({visibility: "hidden"});
+    $(".portfolio-stuff").delay(500).css({visibility: "visible"}).animate({visibility: "hidden"});
+    $(".contact-stuff").delay(500).css({visibility: "visible"}).animate({visibility: "hidden"});
     //making about page show up
     $(".experiences-stuff").delay(900).css({visibility: "visible", opacity: 0}).animate({visibility: "visible", opacity: 1}, 500);
     $("#experiences-title").delay(1200).css({visibility: "visible", opacity: 0}).animate({visibility: "visible", opacity: 1}, 1000);
@@ -128,30 +128,18 @@ $(document).ready(function() {
   $("#portfolio").click(function() {
 
 
-    $(".about-stuff").animate({opacity: 0}, 500);
-    $(".experiences-stuff").animate({opacity: 0}, 500);
-    $(".contact-stuff").animate({opacity: 0}, 500);
+    $(".abt").animate({opacity: 0}, 500);
+    $(".ex").animate({opacity: 0}, 500);
+    $(".cont").animate({opacity: 0}, 500);
     $(".about-stuff").delay(500).css({visibility: "hidden"}).animate({visibility: "hidden"});
     $(".experiences-stuff").delay(500).css({visibility: "hidden"}).animate({visibility: "hidden"});
     $(".contact-stuff").delay(500).css({visibility: "hidden"}).animate({visibility: "hidden"});
     //
     $(".portfolio-stuff").delay(900).css({visibility: "visible", opacity: 0}).animate({visibility: "visible", opacity: 1}, 500);
     $("#portfolio-title").delay(1200).css({visibility: "visible", opacity: 0}).animate({visibility: "visible", opacity: 1}, 1000);
+    $(".slide-wrap").delay(1500).css({visibility: "visible", opacity: 0}).animate({visibility: "visible", opacity: 1}, 2000);
 
-  //   $(window).load(function(){
-  //     $('.fotorama').fotorama({
-  //         width: 1000, // Width of container
-  //         height: 600, // Height of container
-  //         startImg: 10, // Initial image
-  //         transitionDuration: 400, // Duration of transitio
-  //         touchStyle: true, // Enable dragging
-  //         margin: 10, // Margin between images
-  //         arrowsColor: '#3399cc', // Arrows color
-  //         thumbSize: 50, // Thumb size (height)
-  //         thumbBorderWidth: 1, // Thumb border width
-  //         caption: true, // Display captions
-  //     });
-  // });
+
 
     var $slide = $('.slide'),
       $slideGroup = $('.slide-group'),
@@ -193,13 +181,16 @@ $(document).ready(function() {
 
   $("#contact").click(function() {
     //hiding everything else
-    $(".experiences-stuff").animate({opacity: 0}, 500);
-    $(".portfolio-stuff").animate({opacity: 0}, 500);
-    $(".about-stuff").animate({opacity: 0}, 500);
+
+    $(".ex").animate({opacity: 0}, 500);
+    $(".prt").animate({opacity: 0}, 500);
+    $(".abt").animate({opacity: 0}, 500);
     $(".experiences-stuff").delay(500).css({visibility: "hidden"}).animate({visibility: "hidden"});
     $(".portfolio-stuff").delay(500).css({visibility: "hidden"}).animate({visibility: "hidden"});
     $(".about-stuff").delay(500).css({visibility: "hidden"}).animate({visibility: "hidden"});
     //making about page show up
+    $(".fa-angle-left").css({opacity:0});
+    $(".fa-angle-right").css({opacity:1});
     $(".contact-stuff").delay(900).css({visibility: "visible", opacity: 0}).animate({visibility: "visible", opacity: 1}, 500);
     $("#contact-title").delay(1200).css({visibility: "visible", opacity: 0}).animate({visibility: "visible", opacity: 1}, 1000);
     $(".contact0").delay(1200).css({visibility: "visible", opacity: 0}).animate({visibility: "visible", opacity: 1}, 3200);

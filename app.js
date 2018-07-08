@@ -43,6 +43,7 @@ $(document).ready(function() {
     $(".cont").animate({opacity: 0}, 500);
     $(".experiences-stuff").delay(500).css({visibility: "hidden"}).animate({visibility: "hidden"});
     $(".portfolio-stuff").delay(500).css({visibility: "hidden"}).animate({visibility: "hidden"});
+
     $(".contact-stuff").delay(500).css({visibility: "hidden"}).animate({visibility: "hidden"});
     //making about page show up
     $(".about-stuff").css({visibility: "visible", opacity: 0}).delay(800).animate({visibility: "visible", opacity: 1}, 500);
@@ -59,9 +60,11 @@ $(document).ready(function() {
     $(".abt").animate({opacity: 0}, 500);
     $(".cont").animate({opacity: 0}, 500);
     $(".prt").animate({opacity: 0}, 500);
-    $(".about-stuff").delay(500).css({visibility: "visible"}).animate({visibility: "hidden"});
-    $(".portfolio-stuff").delay(500).css({visibility: "visible"}).animate({visibility: "hidden"});
-    $(".contact-stuff").delay(500).css({visibility: "visible"}).animate({visibility: "hidden"});
+    $(".about-stuff").delay(500).css({visibility: "hidden"}).animate({visibility: "hidden"});
+    $(".portfolio-stuff").delay(500).css({visibility: "hidden"}).animate({visibility: "hidden"});
+    $(".contact-stuff").delay(500).css({visibility: "hidden"}).animate({visibility: "hidden"});
+    $(".slide-wrap").delay(1000).css({visibility: "hidden"}).animate({visibility: "hidden"});
+
     //making about page show up
     $(".experiences-stuff").delay(900).css({visibility: "visible", opacity: 0}).animate({visibility: "visible", opacity: 1}, 500);
     $("#experiences-title").delay(1200).css({visibility: "visible", opacity: 0}).animate({visibility: "visible", opacity: 1}, 1000);
@@ -126,8 +129,6 @@ $(document).ready(function() {
 
 
   $("#portfolio").click(function() {
-
-
     $(".abt").animate({opacity: 0}, 500);
     $(".ex").animate({opacity: 0}, 500);
     $(".cont").animate({opacity: 0}, 500);
@@ -138,15 +139,12 @@ $(document).ready(function() {
     $(".portfolio-stuff").delay(900).css({visibility: "visible", opacity: 0}).animate({visibility: "visible", opacity: 1}, 500);
     $("#portfolio-title").delay(1200).css({visibility: "visible", opacity: 0}).animate({visibility: "visible", opacity: 1}, 1000);
     $(".slide-wrap").delay(1500).css({visibility: "visible", opacity: 0}).animate({visibility: "visible", opacity: 1}, 2000);
-
-
-
     var $slide = $('.slide'),
       $slideGroup = $('.slide-group'),
       $bullet = $('.bullet');
     var slidesTotal = ($slide.length - 1),
         current = 0,
-        isAutoSliding = true;
+        isAutoSliding = false;
     $bullet.first().addClass('current');
     var clickSlide = function() {
       //stop auto sliding
